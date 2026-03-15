@@ -16,8 +16,6 @@ header{
     padding: 10px;
 }
 
-
-
 .multiverso{
     color: #FFBA1B;
     font-size: 25px;
@@ -58,20 +56,12 @@ li a:hover{
     color: #FFBA1B;
 }
 
-article{
-    padding: auto;
-    margin: auto;
-}
-
 .texto_paragrafos{
     font-size: 20px;
     margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
     line-height: 2;
     text-align: justify;
 }
-
 
 .referencia{
     font-size: 16px;
@@ -91,14 +81,17 @@ article{
 }
 
 .margem{
-    margin: 100px;
+   
+    margin: 50px auto;
+    max-width: 60%;
+    height: auto;
 }
 
 .tamanho-imagem{
     display: block;
-    max-width: 80%;
+    max-width: 50%;
     height: auto;
-      border-radius: 10px;
+    border-radius: 10px;
 }
 
 .data_publicacao{
@@ -128,6 +121,7 @@ h2{
 h3{
     font-size: 25px;
     font-weight: bold;
+    text-align: justify;
 }
 
 footer{
